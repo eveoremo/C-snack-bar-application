@@ -1,0 +1,42 @@
+/*
+simple calculator
+created by DBIT-01-0135/2022
+on July char1
+c89
+mit licence
+*/
+#include <stdio.h>
+
+int main()
+ {
+        int i,a;
+        int item_code[6] = {1,2,3,4,5,6};
+        int item_code2;
+
+        printf("Welcome: Oremo C Snack Shop \n\n");
+
+        printf("TODAYS MENU");
+
+                printf("What would you like to order:\n");
+            printf("Food/KES\n");
+            printf("[1]Hot Dog/KES90 \n");
+            printf("[2]Hambuger/KES300\n");
+            printf("[3]French Fries/KES150\n");
+            printf("[4]Milk Shake/KES150\n");
+            printf("[5]Coffee/KES70\n");
+            printf("[6]Beef Smokie/KES40\n");
+            printf("Please  item number: ");
+            printf("Please  item quantity: ");
+            scanf("%d",&a);
+            for(int j=0;j<a;j++)
+            {
+                printf("Enter Item Code: ");
+                scanf("%d",&item_code2);
+            }
+            for(i=0;i<a;i++)
+            {
+                printf("%d",item_code2);
+            }
+
+    return 0;
+}
